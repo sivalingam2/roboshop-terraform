@@ -1,7 +1,3 @@
-terraform {
-  backend "s3" {}
-}
-variable "test" {}
-output "test" {
-  value = var.test
-}
+variable "components" {}
+variable "security_groups" {}
+variable "zone_id" {}
